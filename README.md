@@ -52,5 +52,8 @@ Flag: O24{9999903898}
 
 It is important to note that the speed of cracking is heavily dependent on the hardware resources present on the host PC, which is why I executed this program on my host PC and not on my VM. 
 
-An alternative to this would be to use JohnTheRipper on Kali with the following command; 
+An alternative to this would be to use JohnTheRipper on Kali with the following command;
+
 john --format=bcrypt hash.txt --wordlist=sequences.txt
+
+However, the VM will require adequate resources (RAM, GPU) to crack the hash in good time.

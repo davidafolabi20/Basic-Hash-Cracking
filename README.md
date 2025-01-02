@@ -14,7 +14,7 @@ Tools Used
 - Go Lang
 - John The Ripper
 
-Solution Approach:
+### Solution Approach:
 The first step to find out what hashing algorithm was used. To achieve this there are a number of tools that can be used. For this challenge I used hashid and nth. 
 
 Here are the commands;
@@ -43,7 +43,7 @@ Following this I wrote another Go program that will compare the hash of each seq
 
 //hash_cracker.go, see repo for code//
 
-Results and Conclusion
+### Results and Conclusion
 It took 2 hours 55 minutes and about 27 seconds to loop through 14.69 million sequences in order to find a successful match.
 Flag: O24{9999903898}
 

@@ -1,5 +1,5 @@
 # Basic-Hash-Cracking
-Prime Suspects: Outpost24 Hash Cracking CTF WriteUp
+# Prime Suspects: Outpost24 Hash Cracking CTF WriteUp
 Challenge Description:
 Json's notorious ransomware gang has unveiled what they claim to be an uncrackable hashing algorithm, derived from the digits of the largest known prime number. Mocking the world, they have publicly shared the hash of their master password, confident no one can break the encryption.
 
@@ -26,9 +26,11 @@ nth -t given_hash
 In this context that’ll be;
 
 hashid ‘$2y$05$tJ5qkcBGrjiRfZZAlkSsP.kcVStH7oCzsery3nN1sgXk02xThNck6’
+
 ![Screenshot 2024-12-31 115743](https://github.com/user-attachments/assets/3471915c-fe6b-42e5-afbe-27cb6544b89c)
 
 nth -t ‘$2y$05$tJ5qkcBGrjiRfZZAlkSsP.kcVStH7oCzsery3nN1sgXk02xThNck6’
+
 ![Screenshot 2024-12-31 120229](https://github.com/user-attachments/assets/f1ef58d5-58ba-4883-8c24-a538e6c80914)
 
 Using nth helped confirm the exact hashing algorithm used. Now that we are certain that the hashing algorithm used is bcrypt. We will proceed to crack the hash. 
